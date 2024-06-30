@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8405a472-b66e-4331-bac2-53871664daa5" name="Changes" comment="Added all existing source files and directories.">
+      <change beforePath="$PROJECT_DIR$/Client/src/kakkoiichris/chat/client/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/kakkoiichris/chat/client/Client.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/kakkoiichris/chat/server/Server.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/kakkoiichris/chat/server/Server.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/kakkoiichris/chat/server/ServerClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/kakkoiichris/chat/server/ServerClient.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KakkoiiChris&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KakkoiiChris/KakkoiiChat.git&quot;,
+    &quot;accountId&quot;: &quot;2061379c-1052-4724-b372-ba40789a0fb9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2hzf1Rl7GGGimBhU4EvuE3FdhKb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Server.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kakko/IdeaProjects/Programs/KakkoiiChat/Server/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kakko\IdeaProjects\Programs\KakkoiiChat\Server\src" />
+      <recent name="C:\Users\kakko\IdeaProjects\Programs\KakkoiiChat\Common\src" />
+      <recent name="C:\Users\kakko\IdeaProjects\Programs\KakkoiiChat\Client\src" />
+      <recent name="C:\Users\kakko\IdeaProjects\Programs\KakkoiiChat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.Client">
+    <configuration name="Client" type="JetRunConfigurationType" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="kakkoiichris.chat.client.MainKt" />
+      <module name="Client" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="JetRunConfigurationType">
+      <option name="MAIN_CLASS_NAME" value="kakkoiichris.chat.server.MainKt" />
+      <module name="Server" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.Client" />
+      <item itemvalue="Kotlin.Server" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8405a472-b66e-4331-bac2-53871664daa5" name="Changes" comment="" />
+      <created>1718601611658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718601611658</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added all existing source files and directories.">
+      <option name="closed" value="true" />
+      <created>1718602940899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718602940899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added all existing source files and directories." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added all existing source files and directories." />
+  </component>
+</project>

@@ -17,8 +17,6 @@ class Client(private val socket: Socket) : Thread("kakkoii_chat_client") {
     private val reader = BufferedReader(InputStreamReader(socket.getInputStream()))
 
     init {
-        val size = Dimension(640, 480)
-
         input.addActionListener {
             val message = input.text
             input.text = ""
@@ -26,6 +24,8 @@ class Client(private val socket: Socket) : Thread("kakkoii_chat_client") {
             write(message)
             send(message)
         }
+
+        val size = Dimension(640, 480)
 
         val inPanel = JPanel()
 
@@ -62,7 +62,7 @@ class Client(private val socket: Socket) : Thread("kakkoii_chat_client") {
         output.document.insertString(output.document.length, "$message\n", null)
     }
 
-    fun send(message: String){
+    fun send(message: String) {
         writer.println(message)
     }
 

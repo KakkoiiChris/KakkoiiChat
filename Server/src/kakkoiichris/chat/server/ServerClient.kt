@@ -6,19 +6,14 @@ import java.io.InputStreamReader
 import java.io.PrintWriter
 import java.net.Socket
 
-class ServerThread(private val server: Server, private val socket: Socket) : Thread() {
+class ServerClient(private val server: Server, private val socket: Socket) : Thread() {
+    private val reader = BufferedReader(InputStreamReader(socket.getInputStream()))
+    private val writer = PrintWriter(socket.getOutputStream(), true)
+
     override fun run() {
         try {
-            val input = socket.getInputStream()
-            val reader = BufferedReader(InputStreamReader(input))
-
-            val output = socket.getOutputStream()
-            val writer = PrintWriter(output, true)
-
-            var text: String
-
             do {
-                text = reader.readLine() ?: ""
+                val text = reader.readLine() ?: ""
                 val reverseText = text.reversed()
 
                 server.write("@${socket.inetAddress}: $text -> $reverseText")
@@ -34,5 +29,9 @@ class ServerThread(private val server: Server, private val socket: Socket) : Thr
 
             ex.printStackTrace()
         }
+    }
+
+    fun send(message: String) {
+        writer.println(message)
     }
 }
